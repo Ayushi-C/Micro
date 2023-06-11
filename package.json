@@ -4,10 +4,11 @@
   "description": "An elegant responsive bootstrap 4.x theme.",
   "main": "gulpfile.js",
   "author": "DevCRUD",
-  "scripts": {
-    "build:azure": "npm run build",
-    "start": "gulp"
-  },
+ "scripts": {
+  "build:azure": "npm run build",
+  "start": "gulp",
+  "prebuild": "npm install"
+},
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
