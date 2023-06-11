@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "author": "DevCRUD",
  "scripts": {
-  "build:azure": "npm run build",
+   "npm run build:azure",
   "start": "gulp",
   "prebuild": "npm install"
 },
